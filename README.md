@@ -6,7 +6,7 @@ A simple Node.js URL shortener service. This project allows users to shorten URL
 
 - Shorten long URLs
 - Redirect using short codes
-- MongoDB integration for storing URLs
+- MySQL integration for storing URLs
 - Modular code structure (controllers, models, routes, services, utils)
 
 ## Project Structure
@@ -40,7 +40,7 @@ utils/
    ```bash
    npm install
    ```
-3. Configure MongoDB connection in `config/db.js`.
+3. Configure MySQL connection in `config/db.js` (update host, user, password, and database as needed).
 4. Start the server:
    ```bash
    npm start
@@ -54,7 +54,10 @@ utils/
 ## Dependencies
 
 - Express
-- Mongoose
+- MySQL2
+- Nanoid
+- CORS
+- Dotenv
 
 ## License
 
