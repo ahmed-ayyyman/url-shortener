@@ -1,0 +1,9 @@
+# Dependencies
+node_modules/
+
+# Environment variables (API keys, DB passwords, etc.)
+.env
+.env.local
+.env.development
+.env.test
+.env.production
